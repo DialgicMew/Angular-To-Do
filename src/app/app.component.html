@@ -1,0 +1,22 @@
+<div class="main">
+  <h1>Reminders</h1>
+  <div class="additem">
+    <input
+      type="text"
+      [(ngModel)]="newitem"
+      class="addtext"
+      placeholder="Add item"
+    />
+    <button mat-button (click)="pushitem()">ADD</button>
+  </div>
+  <ul>
+    <li *ngFor="let i of items; let ind = index"> <mat-checkbox class="check" ></mat-checkbox>
+      {{ i }}
+      <span (click)="remove(ind)">x</span>
+    </li>
+  </ul>
+</div>
+<div class = "foot1">
+  <app-footer></app-footer>
+</div>
+  

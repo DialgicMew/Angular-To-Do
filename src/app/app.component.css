@@ -1,0 +1,83 @@
+.main {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid whitesmoke;
+    border-bottom: 0px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  h1 {
+    color:#ffffff;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 0px;
+    background-color: #0288d1;
+  }
+  .additem {
+    position: relative;
+    padding-bottom: 0;
+    height: 30px;
+  }
+  .addtext {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  button {
+    height: 50px;
+    width: 60px;
+  }
+  button{
+    padding: 10px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  .check{
+    float: left;
+  }
+  
+  span {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+  }
+  .foot1{
+    height: 40px;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+  }
+  
+  ul li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    color: black;
+    margin-left: -40px;
+    margin-bottom: 0px;
+  }
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  button:hover {
+    background-color: #bbb;
+  }
+  ul li:hover {
+    background: rgb(228, 224, 224);
+  } 
+  
